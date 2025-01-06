@@ -11,13 +11,17 @@ namespace assignment
         static void Main(string[] args)
         {
             int n;
+            Console.WriteLine("Baldha Prince");
             Console.WriteLine("Enter a number: ");
             n = Int32.Parse(Console.ReadLine());
 
             if(n>0)
             {
-                Console.WriteLine(n + "is positive");
-                
+                Console.WriteLine(n + " is positive");
+            }
+            else
+            {
+                Console.WriteLine(n + " is negative");
             }
         }
     }
